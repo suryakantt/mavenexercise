@@ -8,6 +8,9 @@
     <artifactId>mavenexercise</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
+
+    //Add a new repository in the pom.xml and use its dependencies.
+
     <repositories>
         <repository>
             <snapshots>
@@ -25,6 +28,7 @@
 
     </repositories>
 
+    //different dependencies and dependency scopes.
 
     <dependencies>
 
@@ -51,6 +55,8 @@
         </dependency>
     </dependencies>
 
+
+    //Using JAR plugin, make changes in the pom.xml to make the jar executable.
     <build>
         <plugins>
             <plugin>
